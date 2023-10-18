@@ -115,6 +115,12 @@ main{
 .table-button {
   color: var(--primary-color);
   cursor: pointer;
+  transition: 0.6;
+}
+
+.table-button:hover {
+  transform: scale(1.1);
+
 }
 
 
@@ -173,8 +179,6 @@ table, th, td {
     font-size: 0.5rem;
  }
 
-
-
   .title {
     padding-top: 3rem;
   }
@@ -208,6 +212,19 @@ table, th, td {
 
   .services-item-text {
     font-size: 0.75rem;
+  }
+
+  .table-text {
+    flex-direction: column;
+  }
+
+  .table-title {
+    margin: 2rem 2rem 0 2rem;
+    text-align: center;
+  }
+
+  table {
+    margin: 0.5rem;
   }
 
   
