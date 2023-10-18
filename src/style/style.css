@@ -113,14 +113,13 @@ main{
 }
 
 .table-button {
-  color: var(--primary-color);
+  background-image: url(../../assets/img/ArrowDown.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  padding: 1.5rem;
   cursor: pointer;
   transition: 0.6;
-}
-
-.table-button:hover {
-  transform: scale(1.1);
-
 }
 
 
