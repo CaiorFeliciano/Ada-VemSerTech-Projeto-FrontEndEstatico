@@ -1,6 +1,7 @@
 :root {
   --primary-color:#4f772d;
   --secondary-color: #fefeff;
+  --tertiary-color: #bece7a;
   --font-family-title: 'Comfortaa', sans-serif;
   --font-family-text: 'Zen Maru Gothic', serif;
 }
@@ -71,15 +72,15 @@ main{
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #bece7a;
-  box-shadow: 5px 5px 25px #000000;
-  padding: 2rem;
+  background-color: var(--tertiary-color);
+   padding: 2rem;
   transition: 0.6s;
   border-radius: 5px;
 }
 
 .services-item:hover {
   transform: scale(1.1);
+  box-shadow: 5px 5px 20px black;
 }
 
 .services-item-img {
@@ -99,6 +100,62 @@ main{
   text-align: center;
   letter-spacing: 0.1rem;
 }
+
+.table-text {
+  display: flex;
+}
+
+.table-title {
+  margin: 2rem 2rem;
+  font-family: var(--font-family-title);
+  color: var(--primary-color);
+  font-size: 1.75rem;
+}
+
+.table-button {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+
+table, th, td {
+  border: 1px solid var(--primary-color);
+  }
+  
+  table {
+  border-collapse: collapse;
+  margin: auto;
+  margin-bottom: 2rem;
+  }
+
+  th{
+    font-family: var(--font-family-title);
+    color: var(--primary-color);
+    }
+
+  td {
+    font-family: var(--font-family-text);
+    font-weight: 700;
+  }
+  
+  th, td{
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  }
+  
+  th{
+  font-weight: bold;
+  }
+  
+  
+  tr:nth-child(even) {
+  background-color: #DCEBE6;
+  }
+  
+  tr:hover:nth-child(1n + 2) {
+  background-color: var(--tertiary-color);
+  }
 
 
 
