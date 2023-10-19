@@ -1,0 +1,15 @@
+{
+  "name": "ProjetoHortalicia",
+  "version": "1.0.0",
+  "description": "ProjetoHortalicia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server -p 3001 --watch db.json"
+  },
+  "author": "Caio Feliciano",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  }
+}
