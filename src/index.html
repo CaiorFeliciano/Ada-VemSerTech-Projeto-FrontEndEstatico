@@ -114,6 +114,7 @@
           <button
             type="submit"
             class="table-button"
+            onclick="getProducts()"
           ></button>
         </div>
         <table id="userTable">
@@ -125,74 +126,65 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>Alface</td>
-              <td>3.67</td>
-              <td>quinta-feira</td>
-            </tr>
-            <tr>
-              <td>tomate</td>
-              <td>3.56</td>
-              <td>quinta-feira</td>
-            </tr>
           </tbody>
         </table>
       </section>
-      <footer class="footer">
-        <div class="left">
-          <h4 class="title-footer">Hortalícia</h4>
-
-          <div class="links">
-            <a>Pedidos</a>
-            <a>Nossa História</a>
-            <p>Endereço:</p>
-            <p>Rua da Verdura, 608</p>
-          </div>
-
-          <div class="footer-icons">
-            <a href="#"
-              ><img
-                src="../assets/img/002-whatsapp.png"
-                alt=""
-            /></a>
-            <a href="#"
-              ><img
-                src="../assets/img/003-facebook.png"
-                alt=""
-            /></a>
-            <a href="#"
-              ><img
-                src="../assets/img/001-instagram.png"
-                alt=""
-            /></a>
-          </div>
-        </div>
-
-        <div class="right">
-          <h4 class="title-footer">Contato</h4>
-
-          <form>
-            <input
-              type="text"
-              name="nome"
-              placeholder="Nome"
-              required=""
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="E-mail"
-              required=""
-            />
-            <textarea
-              name="messagem"
-              placeholder="Messagem"
-              required=""
-            ></textarea>
-            <button class="btn">Enviar</button>
-          </form>
-        </div>
-      </footer>
     </main>
+    <footer class="footer">
+      <div class="left">
+        <h4 class="title-footer">Hortalícia</h4>
+
+        <div class="links">
+          <a>Pedidos</a>
+          <a>Nossa História</a>
+          <p>Endereço:</p>
+          <p>Rua da Verdura, 608</p>
+        </div>
+
+        <div class="footer-icons">
+          <a href="#"
+            ><img
+              src="../assets/img/002-whatsapp.png"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img
+              src="../assets/img/003-facebook.png"
+              alt=""
+          /></a>
+          <a href="#"
+            ><img
+              src="../assets/img/001-instagram.png"
+              alt=""
+          /></a>
+        </div>
+      </div>
+
+      <div class="right">
+        <h4 class="title-footer">Contato</h4>
+
+        <form>
+          <input
+            type="text"
+            name="nome"
+            placeholder="Nome"
+            required=""
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="E-mail"
+            required=""
+          />
+          <textarea
+            name="messagem"
+            placeholder="Messagem"
+            required=""
+          ></textarea>
+          <button class="btn">Enviar</button>
+        </form>
+      </div>
+    </footer>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>

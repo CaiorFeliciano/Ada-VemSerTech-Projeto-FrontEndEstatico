@@ -154,10 +154,6 @@ th {
   font-weight: bold;
 }
 
-tr:hover:nth-child(1n + 2) {
-  background-color: var(--tertiary-color);
-}
-
 .footer {
   background-color: var(--primary-color);
 
