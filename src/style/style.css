@@ -345,19 +345,22 @@ p {
 
   .footer {
     flex-direction: column;
+    align-items: center;
+    align-items: start;
+    width: 100%;
   }
 
-  .left {
-    margin-top: 1rem;
-  }
 
   .title-footer,
   .links {
     text-align: center;
+    justify-content: center;
+    font-size: 0.5rem;
   }
 
   .footer-icons {
-    margin-left: 2rem;
+    display: none;
+    align-items: start;
   }
 
   .footer form {
@@ -366,7 +369,19 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+
+  .services-container {
+    flex-direction: column;
+    margin-left: 50px;
+  }
+
+  .table-title {
+    font-size: 1.4rem;
+    margin-left: 5rem;
+  }
+
+
   .footer .left {
     width: 48%;
     border-bottom: 0;
