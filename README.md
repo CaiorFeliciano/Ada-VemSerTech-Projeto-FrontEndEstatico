@@ -9,5 +9,4 @@ Primeiro projeto relacionado ao programa da Ada - Vem Ser Tech, Módulo Front En
 - JavaScript
 - JSON Server
 
-<img src="/assets/img/img.jpg">
 
